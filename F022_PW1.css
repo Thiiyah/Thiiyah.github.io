@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('toko-oleh-oleh-kota-daeng.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFF8EA;
+}
+header image{
+    line-height: 22.97px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+}
+header h1:hover{
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+}
+nav ul li{
+    margin-left: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #C08267;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+#awal{
+    background-image: linear-gradient(0deg, rgba(89,69,69,0.7), rgba(89,69,69,0.7));
+    background-position: 50% 50%;
+
+}
+#awal h1{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FFFADA;
+}
+#awal p{
+    text-align: center;
+    font-family: 'roboto';
+    color: #CCB9B1;
+    font-weight: 400;
+    size: 24px;
+}
+#kami{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    height: 150px;
+    background-color: #FFF8EA;
+}
+#kami h1{
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-family: roboto;
+    font-size:30px ;
+}
+#kami h2{
+    text-align: center;
+    width: 138px;
+    height: 63px;
+    margin: 18px auto 0;
+    font-family: Amasis MT Pro black;
+    color: #552918;
+    font-style: bold;
+}
+#kami p{
+    text-align: center;
+    color: black ;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+#awal2{
+    background:#594545;
+    grid-area: footer;
+}
+ul {
+    margin:0;padding:0;
+    display:grid;
+    list-style-type:none;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+ul li {
+    padding: 2em;
+    padding-bottom: 80px;
+    color:#FFF8EA;
+}
+ul li span {
+    display:block;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color: white;
+}
+#awal2 h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: #FFF8EA;
+}
+
+#rek{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 1000px;
+    background-color: #FFF8EA;
+}
+
+#rek h1{
+    text-align: center;
+    color: #552918;
+    font-size: 30px;
+}
+.toko{
+   padding: 30px;
+   display: flex;
+}
+.toko img{
+   width: 300px;
+   height: 250px;
+   display: block;
+   margin-left: 20px;
+   margin-right: 10px; 
+}
+.toko h2{
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.toko p{
+    padding: 50px;
+    text-align: justify;
+    color: black;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #552918;
+    height: 50px;
+    color: #FFFADA;
+}
+
+
